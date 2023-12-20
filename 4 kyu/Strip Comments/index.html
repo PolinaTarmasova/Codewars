@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Strip Comments</h1>
+    </header>
+    <main>
+        <p>Complete the solution so that it strips all text that follows any of a set of comment markers passed in. Any
+            whitespace at the end of the line should also be stripped out.</p>
+        <p>
+            Example:
+        </p>
+        <ul>
+            <li>
+                <h2>
+                    Given an input string of:
+                </h2>
+                <p>
+                    apples, pears # and bananas <br>
+                    grapes <br>
+                    bananas !apples <br>
+                </p>
+            </li>
+            <li>
+                <h2>
+                    The output expected would be:
+                </h2>
+                <p>
+                    apples, pears <br>
+                    grapes <br>
+                    bananas <br>
+                </p>
+            </li>
+            <li>
+                <h2>
+                    The code would be called like so:
+                </h2>
+                <div class="code" style="background-color: grey; color: white; padding: 20px 20px; display: inline-block;">
+                    <p>var result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])</p>
+                    <p>// result should == "apples, pears\ngrapes\nbananas"</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
